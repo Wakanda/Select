@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px"
+	 height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+<g id="Button" display="none">
+	<path display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M8.954,11.906v-2H22.95v2H8.954"/>
+	<path display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M28.976,1.931h-26c-1.104,0-2,0.896-2,2v14
+		c0,1.105,0.896,2,2,2h13.986v-2H4.945c-1.105,0-2-0.896-2-2v-10c0-1.104,0.895-2,2-2h22.03c1.105,0,2,0.896,2,2v10
+		c0,1.104-0.895,2-2,2h-4.287l1.931,2h4.357c1.105,0,2-0.895,2-2v-14C30.976,2.827,30.081,1.931,28.976,1.931z"/>
+	<path display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ABAFB3" stroke-miterlimit="10" d="
+		M16.962,12.002v15.859l3.479-2.384l2.471,4.592l3.831-1.719l-2.689-4.405l4.392-0.051L16.962,12.002z"/>
+</g>
+<g id="Image_button" display="none">
+	<path display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M29,1.931H3c-1.104,0-2,0.896-2,2v14
+		c0,1.105,0.896,2,2,2h13.986v-2H4.969c-1.105,0-2-0.896-2-2v-10c0-1.104,0.895-2,2-2h22.03c1.104,0,2,0.896,2,2v10
+		c0,1.104-0.896,2-2,2h-4.287l1.931,2H29c1.105,0,2-0.895,2-2v-14C31,2.827,30.105,1.931,29,1.931z"/>
+	<path display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ABAFB3" stroke-miterlimit="10" d="
+		M16.986,12.002v15.859l3.479-2.384l2.471,4.592l3.831-1.719l-2.69-4.405l4.392-0.051L16.986,12.002z"/>
+	<path display="inline" fill="#ABAFB3" d="M9.741,6.912l4.567,10.024H4.396L9.741,6.912z"/>
+	<path display="inline" fill="#ABAFB3" d="M25.125,11.405l2.658,5.459h-5.317L25.125,11.405z"/>
+	<path display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M20.913,5.79c1.317,0,2.384,1.031,2.384,2.304
+		s-1.067,2.304-2.384,2.304c-1.317,0-2.384-1.032-2.384-2.304S19.597,5.79,20.913,5.79z"/>
+	<g display="inline">
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" points="16.986,12.814 11.422,16.851 16.986,16.887 		"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" points="21.734,16.919 24.145,16.935 17.51,12.434 17.447,12.48 
+					"/>
+	</g>
+</g>
+<g id="Text" display="none">
+	<g display="inline">
+		<path fill="#ABAFB3" d="M5.546,4.058L4,11.261h1.266c0.252-0.428,0.556-0.891,0.912-1.39c0.356-0.499,0.809-1.055,1.357-1.669
+			c0.46-0.493,0.935-0.948,1.422-1.365C9.445,6.42,9.886,6.185,10.281,6.13c0.537-0.055,1.017-0.096,1.439-0.123
+			c0.422-0.027,0.841-0.041,1.258-0.041h0.641L9.169,24.62c-0.088,0.406-0.241,0.757-0.461,1.052
+			c-0.219,0.296-0.548,0.532-0.987,0.707c-0.252,0.088-0.674,0.164-1.266,0.23c-0.592,0.066-0.515,0.11-0.822,0.132l-0.28,1.201
+			h11.851l0.28-1.201c-0.329-0.033-0.114-0.101-0.618-0.205c-0.504-0.104-0.888-0.211-1.151-0.321
+			c-0.285-0.12-0.48-0.282-0.584-0.485c-0.104-0.203-0.156-0.436-0.156-0.699c0-0.077,0.014-0.2,0.041-0.37
+			c0.027-0.17,0.063-0.348,0.107-0.534l4.336-18.162h0.822c0.373,0,0.814,0.016,1.324,0.049c0.51,0.033,0.929,0.071,1.258,0.115
+			c0.373,0.066,0.693,0.285,0.962,0.658c0.268,0.373,0.518,0.844,0.748,1.414c0.219,0.548,0.392,1.102,0.518,1.661
+			c0.126,0.559,0.211,1.025,0.255,1.398h1.266L28,4.058H5.546z"/>
+	</g>
+</g>
+<g id="Checkbox" display="none">
+	<g display="inline">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M26,4H6C4.896,4,4,4.896,4,6V26c0,1.105,0.896,2,2,2H26
+			c1.105,0,2-0.895,2-2V6C28,4.896,27.104,4,26,4z M26.019,23.958c0,1.104-0.895,2-2,2H8.021c-1.105,0-2-0.896-2-2V8
+			c0-1.104,0.895-2,2-2h15.998c1.105,0,2,0.896,2,2V23.958z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M14.218,22.499c-0.246,0.246-0.646,0.246-0.892,0l-0.198-0.198
+			l-0.001,0.001l-0.21-0.212l-0.929-0.928c-0.003-0.003-0.002-0.008-0.005-0.012l-4.249-4.28c-0.247-0.246-0.247-0.645,0-0.891
+			l1.337-1.337c0.246-0.246,0.645-0.246,0.891,0l3.814,3.841l8.017-8.017c0.246-0.246,0.645-0.246,0.891,0l1.337,1.337
+			c0.246,0.246,0.246,0.645,0,0.891L14.218,22.499z"/>
+	</g>
+</g>
+<g id="Image" display="none">
+	<g display="inline">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M4.017,4.017l23.965,0.001l0,23.965H4.017V4.017z M26.024,6.039
+			l-19.985,0l0,14.962l19.985,0V6.039z M10.418,14.527l1.786,1.768l2.382-3.852l2.381,2.4l3.275-4.931l3.424,9.11l-15.183,0
+			L10.418,14.527z M10.531,12.095c-0.863,0-1.563-0.7-1.563-1.563c0-0.863,0.7-1.563,1.563-1.563c0.863,0,1.563,0.7,1.563,1.563
+			C12.094,11.395,11.394,12.095,10.531,12.095z"/>
+	</g>
+</g>
+<g id="Text_area" display="none">
+	<g display="inline">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M4,4.014v23.972H28V4.014H4z M25.994,26.008H6.027V5.986h19.966
+			V26.008z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M7.931,8.997h16.062v1.01H7.931V8.997z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M7.931,12.997h13.062v1.01H7.931V12.997z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M7.931,16.997h16.062v1.01H7.931V16.997z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M7.963,20.997h8v1.01h-8V20.997z"/>
+	</g>
+</g>
+<g id="Slider" display="none">
+	<g display="inline">
+		<g>
+			<rect x="4" y="8.014" fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" width="1.997" height="12.993"/>
+			<rect x="17.979" y="8.014" fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" width="10.021" height="12.993"/>
+		</g>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M6.917,4.014v19.972l5.153,4l4.951-4V4.014H6.917z
+			 M15.007,22.716l-2.993,2.667l-3.029-2.667V6.028h6.022V22.716z"/>
+	</g>
+</g>
+<g id="Liste" display="none">
+	<g display="inline">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M5.631,7.351c0.724,0,1.311,0.587,1.311,1.311
+			c0,0.724-0.587,1.311-1.311,1.311c-0.724,0-1.311-0.587-1.311-1.311C4.32,7.938,4.907,7.351,5.631,7.351z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M11.603,7.684h15.095c0.543,0,0.983,0.44,0.983,0.983v1
+			c0,0.543-0.44,0.983-0.983,0.983H11.603c-0.543,0-0.983-0.44-0.983-0.983v-1C10.62,8.124,11.06,7.684,11.603,7.684z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M11.603,14.684h15.095c0.543,0,0.983,0.44,0.983,0.983v1
+			c0,0.543-0.44,0.983-0.983,0.983H11.603c-0.543,0-0.983-0.44-0.983-0.983v-1C10.62,15.124,11.06,14.684,11.603,14.684z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M11.561,21.684h15.178c0.52,0,0.941,0.421,0.941,0.941v1.083
+			c0,0.52-0.421,0.941-0.941,0.941H11.561c-0.52,0-0.941-0.421-0.941-0.941v-1.083C10.62,22.105,11.042,21.684,11.561,21.684z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M5.631,14.351c0.724,0,1.311,0.587,1.311,1.311
+			c0,0.724-0.587,1.311-1.311,1.311c-0.724,0-1.311-0.587-1.311-1.311C4.32,14.938,4.907,14.351,5.631,14.351z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M5.631,21.351c0.724,0,1.311,0.587,1.311,1.311
+			c0,0.724-0.587,1.311-1.311,1.311c-0.724,0-1.311-0.587-1.311-1.311C4.32,21.938,4.907,21.351,5.631,21.351z"/>
+	</g>
+</g>
+<g id="Select">
+	<g>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M4,4.014v23.972H28V4.014H4z M26.007,26.008H6.006V6.007h20.001
+			V26.008z"/>
+		<path fill="#ABAFB3" d="M16.031,21.159l-4.716-8.168h9.431L16.031,21.159z"/>
+	</g>
+</g>
+<g id="Radio" display="none">
+	<g display="inline">
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M16,4C9.373,4,4,9.373,4,16c0,6.627,5.372,12,12,12
+			s12-5.372,12-12C28,9.373,22.627,4,16,4z M16,25.6c-5.302,0-9.6-4.298-9.6-9.6c0-5.302,4.298-9.6,9.6-9.6s9.6,4.298,9.6,9.6
+			C25.6,21.302,21.302,25.6,16,25.6z"/>
+		<path fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M16,10.24c3.181,0,5.76,2.579,5.76,5.76s-2.579,5.76-5.76,5.76
+			c-3.181,0-5.76-2.579-5.76-5.76S12.819,10.24,16,10.24z"/>
+	</g>
+</g>
+<g id="Table" display="none">
+	<path display="inline" fill-rule="evenodd" clip-rule="evenodd" fill="#ABAFB3" d="M4,6v20h24V6H4z M12,25H5v-4h7V25z M12,20H5v-4
+		h7V20z M12,15H5v-4h7V15z M19,25h-6v-4h6V25z M19,20h-6v-4h6V20z M19,15h-6v-4h6V15z M27,25h-7v-4h7V25z M27,20h-7v-4h7V20z M27,15
+		h-7v-4h7V15z"/>
+</g>
+</svg>

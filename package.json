@@ -1,0 +1,25 @@
+{
+    "name": "Select",
+    "studioName": "Select",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.svg",
+    "author": "Wakanda team",
+    "contributors": [
+        "Developer 1",
+        "Developer 2"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2015 Wakanda",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "Select/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Select/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
