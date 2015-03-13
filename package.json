@@ -20,6 +20,7 @@
     "loadDependencies": [
         {"id": "Widget_V2"},
         {"id": "Select/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "Select/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+        {"id": "Select/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "Select/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
     ]
 }
