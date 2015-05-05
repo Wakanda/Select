@@ -1,26 +1,27 @@
 {
     "name": "Select",
     "studioName": "Select",
-    "category": "Custom Widgets",
+    "category": "Form Controls",
+    "type": "widget",
     "iconPath": "/icons/widget.svg",
-    "author": "Wakanda team",
-    "contributors": [
-        "Developer 1",
-        "Developer 2"
-    ],
+    "author": "Wakanda SAS",
+    "contributors": [],
     "version": "1.0.0",
     "copyright": "(c) 2015 Wakanda",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/Wakanda/Select"
     },
-    "keywords": ["wakanda", "widget"],
-    "engines": {"wakanda": ">= 8"},
+    "keywords": ["wakanda", "widget", "select"],
+    "engines": {"wakanda": ">= 11"},
     "license": "MIT",
+    "testDependencies": [
+        "tests/widget.js"
+    ],
     "loadDependencies": [
-        {"id": "Widget_V2"},
-        {"id": "Select/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "Select/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
-        {"id": "Select/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
-    ]
+        {"file": "widget.js"},
+        {"file": "css/widget.css"},
+        {"file": "designer.js","studioOnly": true}
+    ],
+    "hash": ""
 }

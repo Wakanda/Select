@@ -28,6 +28,12 @@
             var binding = this.value.boundDatasource();
             hideAttributes(this, binding);
         });
+
+        /*var that = this;
+        $($$(this.id)).bind('onDomUpdate', function(e, element) {
+            that.init();
+        });*/
+
     });
 
     Select._studioOn('propertyPanelReady', function() {
