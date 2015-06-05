@@ -28,12 +28,26 @@
             var binding = this.value.boundDatasource();
             hideAttributes(this, binding);
         });
+
+        /*var that = this;
+        $($$(this.id)).bind('onDomUpdate', function(e, element) {
+            that.init();
+        });*/
+
+    });
+
+    Select.setPanelStyle({
+        'text': true,
+        'sizePosition': true
     });
 
     Select._studioOn('propertyPanelReady', function() {
         var binding = this.getWidget().value.boundDatasource();
         hideAttributes(this.getWidget(), binding);
     });
+
+    Select.customizeProperty('selectItem', {title: 'Synchronize items'});
+    Select.customizeProperty('allowEmpty', {title: 'Display empty value'});
 
     function hideAttributes(widget, binding) {
         widget.value.show();
