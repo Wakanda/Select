@@ -1,4 +1,4 @@
-WAF.define('Select', ['waf-core/widget'], function(widget) {
+    WAF.define('Select', ['waf-core/widget'], function(widget) {
     "use strict";
 
     /* @todo allow multi selection using the proterty multiple currently disabled */
@@ -37,12 +37,10 @@ WAF.define('Select', ['waf-core/widget'], function(widget) {
             if (this.items())
                 position = this.items().getPosition();
 
-            if(this.allowEmpty()) {
-                s += '<option></option>';
-            }
             s += elements.map(function(i, index) {
                 return that._getMarkup(i, position, index);
             }).join('');
+
             this.node.innerHTML = s;
             this._valueChangeHandler();
         },
@@ -101,6 +99,7 @@ WAF.define('Select', ['waf-core/widget'], function(widget) {
             // FIXME: destroy the created datasource
         },
         init: function() {
+
             if (this.multiple)
                 this.multiple.onChange(function(){ this._setMultiple(); });
             this._subscriber = this.value.onChange(this._valueChangeHandler);
@@ -123,9 +122,20 @@ WAF.define('Select', ['waf-core/widget'], function(widget) {
             if(this.selectItem()) {
                 this._selectSubscriber = this.items.subscribe('currentElementChange', function() {
                     var position = this.items().getPosition();
-                    this.node.selectedIndex = position + (this.allowEmpty() ? 1 : 0);
+                    if (this.allowEmpty) {
+                        this.node.selectedIndex = position + (this.allowEmpty() ? 1 : 0);    
+                    } else {
+                        this.node.selectedIndex = position;    
+                    }
                     this._setValueByPosition(position);
                 }, this);
+            }
+        },
+        disable: function(state) {
+            if (state) {
+                $(this.node).attr("disabled", "disabled").addClass("disabled");
+            } else {
+                $(this.node).attr("disabled", "").removeClass("disabled");
             }
         },
         _setValueByPosition: function(position) {
@@ -168,11 +178,13 @@ WAF.define('Select', ['waf-core/widget'], function(widget) {
             }
         },
         _getMarkup: function(o, position, index) {
+            var label;
+            label = (!o.label) ? "" : o.label; 
             return '<option value="' + o.value + '"' + (position === index ? ' selected' : '') + '>' + o.label + '</option>';
         },
         getSelectedIndex: function() {
             var position = this.node.selectedIndex;
-            if(this.allowEmpty()) {
+            if(this.allowEmpty && this.allowEmpty()) {
                 return position - 1;
             }
             return position;
@@ -180,6 +192,7 @@ WAF.define('Select', ['waf-core/widget'], function(widget) {
     });
 
     select.addClass("form-control");
+    select.addTabIndex();
 
     return select;
 

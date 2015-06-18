@@ -38,3 +38,7 @@
   height: 46px;
   line-height: 46px;
 }
+
+.waf-theme select.disabled {
+  opacity: 0.5;
+}
