@@ -5,7 +5,7 @@
 
     var select = widget.create('Select', {
         tagName: 'select',
-        selectItem: widget.property({ type: 'boolean', bindable: false }),
+        synchronize: widget.property({ type: 'boolean', bindable: false }),
         value: widget.property(),
         items: widget.property({
             type: 'datasource',
@@ -68,7 +68,7 @@
             var dataClass = this._getRelatedDataClass();
 
             // force value attribute to the key
-            if(this.selectItem() || dataClass) {
+            if(this.synchronize() || dataClass) {
                 if(this.items()) {
                     dataClass = this.items().getDataClass();
                 }
@@ -119,7 +119,7 @@
                 this._setValueByPosition(position);
             }.bind(this));
 
-            if(this.selectItem()) {
+            if(this.synchronize()) {
                 this._selectSubscriber = this.items.subscribe('currentElementChange', function() {
                     var position = this.items().getPosition();
                     if (this.allowEmpty) {
@@ -131,12 +131,11 @@
                 }, this);
             }
         },
-        disable: function(state) {
-            if (state) {
-                $(this.node).attr("disabled", "disabled").addClass("disabled");
-            } else {
-                $(this.node).attr("disabled", "").removeClass("disabled");
-            }
+        disable: function() {
+            $(this.node).attr("disabled", "disabled").addClass("disabled");
+        },
+        enable: function() {
+            $(this.node).attr("disabled", "").removeClass("disabled");
         },
         _setValueByPosition: function(position) {
             this._subscriber.pause();
@@ -163,7 +162,7 @@
             }
             this._subscriber.resume();
 
-            if(this.selectItem()) {
+            if(this.synchronize()) {
                 this._selectSubscriber.pause();
                 this.items().select(position);
                 this._selectSubscriber.resume();
